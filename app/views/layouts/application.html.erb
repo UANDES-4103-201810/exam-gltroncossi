@@ -5,21 +5,21 @@
     <%= csrf_meta_tags %>
 
     <style>
-      body {margin:0;}
-
       ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
         overflow: hidden;
         background-color: lightgray;
-        position: fixed;
-        top: 0;
-        width: 100%;
       }
 
       li {
         float: left;
+        border-right:1px solid #bbb;
+      }
+
+      li:last-child {
+        border-right: none;
       }
 
       li a {
@@ -49,10 +49,14 @@
     <li><a href="ingredients">Ingredients</a></li>
     <li><a href="crusts">Crusts</a></li>
     <li><a href="recipes">Recipe</a></li>
+    <li style="float:right"><a href="home">Cart</a></li>
 
   </ul>
 
-
+  <div>
+    <br>
+    <br>
+  </div>
     <%= yield %>
   </body>
 </html>

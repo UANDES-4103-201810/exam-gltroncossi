@@ -16,13 +16,5 @@
 </p>
 
 
-<% pizza_recipe_price = @pizza.recipe_price.where(recipe_id: recipe_id)%>
-<% pizza_crust_price = @pizza.crust_price.where(crust_id: crust_id)%>
-
-<p>
-  <strong>Base Price:</strong>
-  <%= pizza_crust_price+pizza_recipe_price%>
-</p>
-
 <%= link_to 'Edit', edit_pizza_path(@pizza) %> |
 <%= link_to 'Back', pizzas_path %>
