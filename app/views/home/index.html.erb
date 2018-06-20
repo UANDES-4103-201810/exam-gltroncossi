@@ -30,8 +30,12 @@
   <p>WELCOME TO JOE'S PIZZA ONLINE STORE</p>
   <div class="flex-container">
     <% @recipe = Recipe.all %>
+
     <% @recipe.each do |recipe| %>
-      <div><%= link_to recipe.recipe_name, recipe %></div>
+      <% @pizza = Pizza.new %>
+      <% @pizza.recipe_id = recipe %>
+
+      <div><%= link_to recipe.recipe_name, new_pizza_path %></div>
     <%end%>
   </div>
 </body>
