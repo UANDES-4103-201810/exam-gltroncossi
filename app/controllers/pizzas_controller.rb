@@ -17,6 +17,8 @@ class PizzasController < ApplicationController
   # GET /pizzas/new
   def new
     @pizza = Pizza.new
+    @recipe = params[:recipe_id]
+    @order = Order.all
   end
 
   # GET /pizzas/1/edit

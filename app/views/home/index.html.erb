@@ -35,7 +35,7 @@
       <% @pizza = Pizza.new %>
       <% @pizza.recipe_id = recipe %>
 
-      <div><%= link_to recipe.recipe_name, new_pizza_path %></div>
+      <div><%= link_to recipe.recipe_name, new_pizza_path(recipe_id: recipe.id, pizza_name: recipe.recipe_name) %></div>
     <%end%>
   </div>
 </body>
