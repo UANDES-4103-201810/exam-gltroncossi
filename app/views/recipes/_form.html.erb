@@ -12,18 +12,18 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :crust_id %>
-    <%= form.text_field :crust_id, id: :recipe_crust_id %>
-  </div>
-
-  <div class="field">
-    <%= form.label :ingredient_id %>
-    <%= form.text_field :ingredient_id, id: :recipe_ingredient_id %>
+    <%= form.label :recipe_name %>
+    <%= form.text_field :recipe_name, id: :recipe_recipe_name %>
   </div>
 
   <div class="field">
     <%= form.label :recipe_price %>
     <%= form.number_field :recipe_price, id: :recipe_recipe_price %>
+  </div>
+
+  <div class="field">
+    <%= form.label :ingredient_id %>
+    <%= form.text_field :ingredient_id, id: :recipe_ingredient_id %>
   </div>
 
   <div class="actions">

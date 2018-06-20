@@ -38,6 +38,8 @@
         background-color: lightskyblue;
       }
     </style>
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
@@ -46,10 +48,23 @@
   <body>
   <ul>
     <li><a class="active" href="/">Home</a></li>
-    <li><a href="ingredients">Ingredients</a></li>
-    <li><a href="crusts">Crusts</a></li>
-    <li><a href="recipes">Recipe</a></li>
-    <li style="float:right"><a href="home">Cart</a></li>
+
+<!--    <li><a href="ingredients">Ingredients</a></li>-->
+<!--    <li><a href="crusts">Crusts</a></li>-->
+<!--    <li><a href="recipes">Recipe</a></li>-->
+<!--    <li><a href="customers">Customers</a></li>-->
+<!--    <li><a href="deliveries">Deliveries</a></li>-->
+
+    <li style="float:right"><a href="orders">Cart</a></li>
+
+    <% if customer_signed_in? %>
+      <li style="float:right"><%= link_to "Profile", current_customer %>
+      <li style="float:right"><%= link_to "logout", destroy_customer_session_path, method: :delete %></li>
+
+    <% else %>
+      <li style="float:right"><%= link_to "Sign Up", new_customer_registration_path %></li>
+      <li style="float:right"><%= link_to "Login", new_customer_session_path %></li>
+    <% end %>
 
   </ul>
 

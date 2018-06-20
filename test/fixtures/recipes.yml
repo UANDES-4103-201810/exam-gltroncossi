@@ -1,11 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  crust: one
-  ingredient: one
+  recipe_name: MyString
   recipe_price: 1
+  ingredient: one
 
 two:
-  crust: two
-  ingredient: two
+  recipe_name: MyString
   recipe_price: 1
+  ingredient: two
