@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :pizzas
   root 'home#index'
   get 'home/index'
 
@@ -7,7 +8,6 @@ Rails.application.routes.draw do
   resources :orders
   resources :deliveries
   resources :customers
-  resources :pizzas
   resources :recipes
   resources :crusts
   resources :ingredients

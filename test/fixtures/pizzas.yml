@@ -1,9 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  repice: one
+  pizza_name: MyString
+  recipe: one
   crust: one
 
 two:
-  repice: two
+  pizza_name: MyString
+  recipe: two
   crust: two

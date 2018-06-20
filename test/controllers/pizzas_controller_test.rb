@@ -17,7 +17,7 @@ class PizzasControllerTest < ActionDispatch::IntegrationTest
 
   test "should create pizza" do
     assert_difference('Pizza.count') do
-      post pizzas_url, params: { pizza: { crust_id: @pizza.crust_id, repice_id: @pizza.repice_id } }
+      post pizzas_url, params: { pizza: { crust_id: @pizza.crust_id, pizza_name: @pizza.pizza_name, recipe_id: @pizza.recipe_id } }
     end
 
     assert_redirected_to pizza_url(Pizza.last)
@@ -34,7 +34,7 @@ class PizzasControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update pizza" do
-    patch pizza_url(@pizza), params: { pizza: { crust_id: @pizza.crust_id, repice_id: @pizza.repice_id } }
+    patch pizza_url(@pizza), params: { pizza: { crust_id: @pizza.crust_id, pizza_name: @pizza.pizza_name, recipe_id: @pizza.recipe_id } }
     assert_redirected_to pizza_url(@pizza)
   end
 

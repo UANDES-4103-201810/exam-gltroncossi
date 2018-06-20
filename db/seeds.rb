@@ -20,5 +20,8 @@ Ingredient.create(ingredient_name:'shrimp')
 Crust.create(crust_name: 'thin', crust_price: 1000)
 Crust.create(crust_name: 'normal', crust_price: 1500)
 
-Recipe.create(ingredient_id: 1, crust_id: 1)
-Recipe.create(ingredient_id: 2, crust_id: 2)
+Recipe.create(ingredient_id: 1, recipe_price:5000)
+Recipe.create(ingredient_id: 2, recipe_price:4500)
+
+Pizza.create(recipe_id:1, crust_id:1, pizza_name: 'poor joe')
+Pizza.create(recipe_id:2, crust_id:2, pizza_name: 'cheap joe')

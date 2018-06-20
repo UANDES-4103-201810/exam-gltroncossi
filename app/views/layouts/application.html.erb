@@ -4,13 +4,59 @@
     <title>ExamGltroncossi</title>
     <%= csrf_meta_tags %>
 
+    <style>
+      body {margin:0;}
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: lightgray;
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover:not(.active) {
+        background-color: lightblue;
+      }
+
+      .active {
+        background-color: lightskyblue;
+      }
+    </style>
+
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+  <ul>
+    <li><a class="active" href="/">Home</a></li>
+    <li><a href="ingredients">Ingredients</a></li>
+    <li><a href="crusts">Crusts</a></li>
+    <li><a href="recipes">Recipe</a></li>
+
+  </ul>
 
 
     <%= yield %>
   </body>
 </html>
+
+
+
+

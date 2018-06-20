@@ -10,6 +10,8 @@ class PizzasController < ApplicationController
   # GET /pizzas/1
   # GET /pizzas/1.json
   def show
+    @recipe = Recipe.all
+    @crust = Crust.all
   end
 
   # GET /pizzas/new
@@ -69,6 +71,6 @@ class PizzasController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def pizza_params
-      params.require(:pizza).permit(:repice_id, :crust_id)
+      params.require(:pizza).permit(:pizza_name, :recipe_id, :crust_id)
     end
 end
