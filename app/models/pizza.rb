@@ -1,4 +1,4 @@
 class Pizza < ApplicationRecord
-  belongs_to :repice
+  belongs_to :recipe
   belongs_to :crust
 end
