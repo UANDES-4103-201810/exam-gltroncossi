@@ -3,9 +3,9 @@
 one:
   customer: one
   pizza: one
-  payment_method: MyString
+  payment: 1
 
 two:
   customer: two
   pizza: two
-  payment_method: MyString
+  payment: 1
