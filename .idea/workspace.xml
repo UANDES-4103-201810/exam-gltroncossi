@@ -2,36 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="211eeb99-657d-42d8-b509-41148941409a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/customers_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/customers_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/deliveries_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/deliveries_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/orders_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/orders_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/delivery.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/delivery.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/order.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/order.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/customers/_customer.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/customers/_customer.json.jbuilder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/customers/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/customers/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/customers/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/customers/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/customers/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/customers/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/deliveries/_delivery.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/deliveries/_delivery.json.jbuilder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/deliveries/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/deliveries/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/deliveries/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/deliveries/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/deliveries/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/deliveries/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/orders/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/orders/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/orders/_order.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/orders/_order.json.jbuilder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/orders/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/orders/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/orders/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/orders/show.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20180620190157_create_pizzas.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20180620190157_create_pizzas.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20180620190240_create_customers.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20180620190434_create_deliveries.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20180620190532_create_orders.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/customers_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/customers_controller_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/deliveries_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/deliveries_controller_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/orders_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/orders_controller_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/customers.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/customers.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/deliveries.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/deliveries.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/orders.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/orders.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -53,11 +24,20 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="delivery.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="delivery.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/delivery.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
               <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -74,11 +54,6 @@
       </file>
       <file leaf-file-name="20180620191852_create_deliveries.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/migrate/20180620191852_create_deliveries.rb">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="ingredient.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/ingredient.rb">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -116,6 +91,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Erb File" />
+        <option value="Ruby Class Template" />
       </list>
     </option>
   </component>
@@ -131,10 +107,10 @@
         <option value="$PROJECT_DIR$/db/migrate/20180620190132_create_recipes.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20180620190020_create_crusts.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20180620190240_create_customers.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/app/models/order.rb" />
         <option value="$PROJECT_DIR$/app/models/delivery.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
       </list>
     </option>
   </component>
@@ -189,13 +165,20 @@
             <path>
               <item name="exam-gltroncossi" type="b2602c69:ProjectViewProjectNode" />
               <item name="exam-gltroncossi" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="exam-gltroncossi" type="b2602c69:ProjectViewProjectNode" />
               <item name="exam-gltroncossi" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-              <item name="migrate" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exam-gltroncossi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exam-gltroncossi" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -337,15 +320,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1529520302508</updated>
-      <workItem from="1529520303913" duration="2273000" />
+      <workItem from="1529520303913" duration="2559000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2273000" />
+    <option name="totallyTimeSpent" value="2559000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="82" y="46" width="1759" height="883" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24957362" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -419,13 +403,6 @@
     <entry file="file://$PROJECT_DIR$/db/migrate/20180620191821_create_customers.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -475,6 +452,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
         </state>
       </provider>
     </entry>
